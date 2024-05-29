@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xavfsizlikni aniqlash</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  </head>
+  <body>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Tizimga kirishini identifikatsiya qilish, autentifikatsiya qilish va nazorat qilish</p>
+        <label for="mz-1" class="block mb-2 mt-2 text-sm font-medium text-gray-900 dark:text-white">Portlar sonini kiriting</label>
+        <input type="number" id="mz-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-1-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-1-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-1-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-1-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-1-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-1-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+        <form class="max-w-sm mx-auto">
+          <p class="text-lg font-semibold">Axborot oqimini boshqarish </p>
+          <label for="mz-2" class="block mb-2 text-sm font-medium text-gray-900 mt-2 dark:text-white">Portlar sonini kiriting</label>
+          <input type="number" id="mz-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-2-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+          <input type="number" id="mz-2-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-2-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+          <input type="number" id="mz-2-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-2-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+          <input type="number" id="mz-2-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+        </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+        <form class="max-w-sm mx-auto">
+          <p class="text-lg font-semibold">Axborot tashuvchilarni hisobga olish</p>
+          <label for="mz-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Portlar sonini kiriting</label>
+          <input type="number" id="mz-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-3-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+          <input type="number" id="mz-3-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-3-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+          <input type="number" id="mz-3-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-3-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+          <input
+            type="number" id="mz-3-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+        </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Kompyuter(Server)ning operativ xotirasi va tashqi xotira qurilmalarining boʻsh joylarini tozalash (nollashtirish, shaxsiylashtirish) </p>
+        <label for="mz-4" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+        <input type="number" id="mz-4" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-4-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-4-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-4-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-4-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-4-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-4-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+        <form class="max-w-sm mx-auto">
+          <p class="text-lg font-semibold">Maxfiy maʻlumotlarni shifrlash</p>
+          <label for="mz-5" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+          <input type="number" id="mz-5" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-5-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+          <input type="number" id="mz-5-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-5-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+          <input type="number" id="mz-5-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+        </form>
+        <form class="max-w-sm mx-auto mt-4">
+          <label for="mz-5-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+          <input type="number" id="mz-5-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+        </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Sertifikatlangan kriptografik vositalardan foydalanish</p>
+        <label for="mz-6" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+        <input type="number" id="mz-6" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-6-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-6-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-6-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-6-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-6-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-6-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Dasturiy taminot va qayta ishlangan maʻlumotlarning yaxlitligini taminlash</p>
+        <label for="mz-7" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+        <input type="number" id="mz-7" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-7-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-7-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-7-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-7-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-7-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-7-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Kompyuter uskunalari va saqlash vositalarining jismoniy xavfsizligi</p>
+        <label for="mz-8" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+        <input type="number" id="mz-8" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-8-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-8-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-8-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-8-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-8-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-8-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Avtomatlashtirilgan tizimda maʻlumotlar administratorining(himoya xizmati) mavjudligi</p>
+        <label for="mz-9" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+        <input type="number" id="mz-9" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-9-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-9-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-9-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-9-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-9-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-9-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Axborot xavfsizligi tizimiga ruxsatsiz kirishni davriy sinovdan oʻtkazish</p>
+        <label for="mz-10" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-2">Portlar sonini kiriting</label>
+        <input type="number" id="mz-10" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-10-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-10-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-10-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-10-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-10-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-10-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Maʻlumotlarini qayta tiklash vositalarining mavjudligi</p>
+        <label for="mz-11" class="block mb-2 text-sm font-medium text-gray-900 mt-2 dark:text-white">Portlar sonini kiriting</label>
+        <input type="number" id="mz-11" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-11-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-11-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-11-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-11-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-11-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-11-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+    <div class="border rounded-md p-4 w-full mx-auto max-w-sm mt-4">
+      <form class="max-w-sm mx-auto">
+        <p class="text-lg font-semibold">Sertifikatlangan himoya vositalaridan foydalanish</p>
+        <label for="mz-12" class="block mb-2 text-sm font-medium text-gray-900 mt-2 dark:text-white">Portlar sonini kiriting</label>
+        <input type="number" id="mz-12" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-12-r-1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq</label>
+        <input type="number" id="mz-12-r-1" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0"required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-12-r-2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ochiq/Filtrlangan</label>
+        <input type="number" id="mz-12-r-2" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"placeholder="0" required/>
+      </form>
+      <form class="max-w-sm mx-auto mt-4">
+        <label for="mz-12-r-3" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Yopiq</label>
+        <input type="number" id="mz-12-r-3" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="0" required/>
+      </form>
+    </div>
+  <button id="calculateBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 max-w-sm mx-auto mb-8 flex justify-center">
+    Hisoblash
+  </button>
+  
+
+  <script>
+  function calc(s, j1, j2, j3) {
+    var mz = parseFloat(document.getElementById(s).value);
+    var mzr1 = parseFloat(document.getElementById(j1).value);
+    var mzr2 = parseFloat(document.getElementById(j2).value);
+    var mzr3 = parseFloat(document.getElementById(j3).value);
+    var totalCountPerQuestion = mzr1 + mzr2 + mzr3;
+    if (totalCountPerQuestion !== mz) {
+      return 0;
+    }
+    var total = mzr1 * 0 + mzr2 * 5 + mzr3 * 10;
+    var average = total / mz;
+    return average;
+  }
+  document.getElementById("calculateBtn").addEventListener("click", function () {
+    var results = [];
+    var average1 = calc("mz-1", "mz-1-r-1", "mz-1-r-2", "mz-1-r-3");
+    var average2 = calc("mz-2", "mz-2-r-1", "mz-2-r-2", "mz-2-r-3");
+    var average3 = calc("mz-3", "mz-3-r-1", "mz-3-r-2", "mz-3-r-3");
+    var average4 = calc("mz-4", "mz-4-r-1", "mz-4-r-2", "mz-4-r-3");
+    var average5 = calc("mz-5", "mz-5-r-1", "mz-5-r-2", "mz-5-r-3");
+    var average6 = calc("mz-6", "mz-6-r-1", "mz-6-r-2", "mz-6-r-3");
+    var average7 = calc("mz-7", "mz-7-r-1", "mz-7-r-2", "mz-7-r-3");
+    var average8 = calc("mz-8", "mz-8-r-1", "mz-8-r-2", "mz-8-r-3");
+    var average9 = calc("mz-9", "mz-9-r-1", "mz-9-r-2", "mz-9-r-3");
+    var average10 = calc("mz-10", "mz-10-r-1", "mz-10-r-2", "mz-10-r-3");
+    var average11 = calc("mz-11", "mz-11-r-1", "mz-11-r-2", "mz-11-r-3");
+    var average12 = calc("mz-12", "mz-12-r-1", "mz-12-r-2", "mz-12-r-3");
+    results.push(average1, average2, average3, average4, average5, average6, average7, average8, average9, average10, average11, average12);
+    var high=[]
+    var medium=[];
+    var low=[];
+    for(var i=0;i<results.length;i++){
+      if(results[i]==0){
+        alert("Portlar soni noto'g'ri");
+        break;
+      }
+      else if(results[i]>0 && results[i]<=4.4){
+        low.push(results[i]);
+      }
+      else if(results[i]>4.4 && results[i]<=7.4){
+        medium.push(results[i]);
+      }
+      else if(results[i]>7.4 && results[i]<=10){
+        high.push(results[i]);
+      }
+    }
+    var d1=100*high.reduce((accumulator, currentValue) => accumulator + currentValue, 0)/12;
+    var d2=100*medium.reduce((accumulator, currentValue) => accumulator + currentValue, 0)/12;
+    var d3=100*low.reduce((accumulator, currentValue) => accumulator + currentValue, 0)/12;
+    if(d1>70){
+      alert("Axborot obyektining xavfsizligi yuqori darajadagi xavfsizlikka ega")
+    }
+    else if(d1<70 && (d1+d2)>70){
+      alert("Axborot obyektining xavfsizligi o‘rtacha darajasiga ega")
+    }
+    else if(d3!==0){
+      alert("Axborot obyektining xavfsizligi past darajasiga ega")
+    }
+  });
+</script>
+  </body>
+</html>
