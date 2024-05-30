@@ -271,7 +271,7 @@
     var average11 = calc("mz-11", "mz-11-r-1", "mz-11-r-2", "mz-11-r-3");
     var average12 = calc("mz-12", "mz-12-r-1", "mz-12-r-2", "mz-12-r-3");
     results.push(average1, average2, average3, average4, average5, average6, average7, average8, average9, average10, average11, average12);
-    var high=[]
+    var high=[];
     var medium=[];
     var low=[];
     for(var i=0;i<results.length;i++){
@@ -289,19 +289,19 @@
         high.push(results[i]);
       }
     }
-    var d1=100*high.reduce((accumulator, currentValue) => accumulator + currentValue, 0)/12;
-    var d2=100*medium.reduce((accumulator, currentValue) => accumulator + currentValue, 0)/12;
-    var d3=100*low.reduce((accumulator, currentValue) => accumulator + currentValue, 0)/12;
+    var d1=100*high.length/12;
+    var d2=100*medium.length/12;
+    var d3=100*low.length/12;
     if(d1>70){
       alert("Axborot obyektining xavfsizligi yuqori darajadagi xavfsizlikka ega")
     }
     else if(d1<70 && (d1+d2)>70){
-      alert("Axborot obyektining xavfsizligi o‘rtacha darajasiga ega")
+      alert("Axborot obyektining xavfsizligi o‘rtacha darajadagi xavfsizlikka ega")
     }
     else if(d3!==0){
-      alert("Axborot obyektining xavfsizligi past darajasiga ega")
+      alert("Axborot obyektining xavfsizligi past darajadagi xavfsizlikka ega")
     }
   });
 </script>
-  </body>
+</body>
 </html>
